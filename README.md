@@ -4,7 +4,7 @@
 https://github.com/rltrosas88/Work-Day-Scheduler
 
 ## Deployed Application
-
+https://rltrosas88.github.io/Work-Day-Scheduler/
 
 ## User Story
 #### AS AN employee with a busy schedule

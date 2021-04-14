@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./Develop/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <!-- Header of the website that will display the current date -->
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    
+    <!-- container for bootstrap rows -->
+    <div class="container">
+
+      <!-- row for the 8AM information -->
+      <div class="row time-block">
+        <label class=" hour align-top">08:00 </label>
+        <!-- column for the text -->
+        <!-- The contenteditable attribute specifies whether the content of an element is editable or not -->
+        <textarea class="col col-auto col-md-10 txtHour" rows="2" contenteditable="true" ></textarea>
+        <!-- save button -->
+        <button class=" saveBtn">
+          <!-- The <i> tag defines a part of text in an alternate voice or mood. 
+                The <i> tag is often used to indicate a technical term, a phrase from another language
+                Use the <i> element only when there is not a more appropriate semantic element -->
+          <i class="fa fa-save"></i>
+        </button>
+      </div>
+
+      <!-- row for the 9AM information -->
+      <div class="row time-block">
+        <label class=" hour align-top">09:00 </label>
+        <textarea class="col col-auto col-md-10 txtHour" rows="2" contenteditable="true" ></textarea>
+        <button class=" saveBtn">
+          <i class="fa fa-save"></i> 
+        </button>
+      </div>
+
+      <!-- row for the 10AM information -->
+      <div class="row time-block">
+        <label class=" hour align-top">10:00 </label>
+        <textarea class="col col-auto col-md-10 txtHour" rows="2" contenteditable="true" ></textarea>
+        <button class=" saveBtn">
+          <i class="fa fa-save"></i> 
+        </button>
+      </div>
+
+      <!-- row for the 11AM information -->
+      <div class="row time-block">
+        <label class=" hour align-top">11:00 </label>
+        <textarea class="col col-auto col-md-10 txtHour" rows="2" contenteditable="true" ></textarea>
+        <button class=" saveBtn">
+          <i class="fa fa-save"></i> 
+        </button>
+      </div>
+
+      <!-- row for the 12PM information -->
+      <div class="row time-block">
+        <label class=" hour align-top">12:00 </label>
+        <textarea class="col col-auto col-md-10 txtHour" rows="2" contenteditable="true" ></textarea>
+        <button class=" saveBtn">
+          <i class="fa fa-save"></i> 
+        </button>
+      </div>
+
+      <!-- row for the 1PM information -->
+      <div class="row time-block">
+        <label class=" hour align-top">13:00 </label>
+        <textarea class="col col-auto col-md-10 txtHour" rows="2" contenteditable="true" ></textarea>
+        <button class=" saveBtn">
+          <i class="fa fa-save"></i> 
+        </button>
+      </div>
+
+      <!-- row for the 2PM information -->
+      <div class="row time-block">
+        <label class=" hour align-top">14:00 </label>
+        <textarea class="col col-auto col-md-10 txtHour" rows="2" contenteditable="true" ></textarea>
+        <button class=" saveBtn">
+          <i class="fa fa-save"></i> 
+        </button>
+      </div>
+
+      <!-- row for the 3PM information -->
+      <div class="row time-block">
+        <label class=" hour align-top">15:00 </label>
+        <textarea class="col col-auto col-md-10 txtHour" rows="2" contenteditable="true" ></textarea>
+        <button class=" saveBtn">
+          <i class="fa fa-save"></i> 
+        </button>
+      </div>
+
+      <!-- row for the 4PM information -->
+      <div class="row time-block">
+        <label class=" hour align-top">16:00 </label>
+        <textarea class="col col-auto col-md-10 txtHour" rows="2" contenteditable="true" ></textarea>
+        <button class=" saveBtn">
+          <i class="fa fa-save"></i> 
+        </button>
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Develop/script.js"></script>
+  </body>
+</html>
